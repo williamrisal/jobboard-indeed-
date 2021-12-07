@@ -1,0 +1,21 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class People extends Model
+{
+    use HasFactory;
+
+    protected $guarded = [];
+
+//    public function handle($request, Closure $next)
+//    {
+//        if(Auth::check() && Auth::user()->isAdmin()){
+//            return $next($request);
+//        }
+//        return redirect('/');
+//    }
+}
